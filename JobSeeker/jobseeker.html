@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightblue">
+    <a  href="../Home/SignIn.html">Sign Up</a> &nbsp;&nbsp;
+    <a  href="../Home/about.html">About</a> &nbsp;&nbsp;
+    <a href="../Home/Home.html">Home</a><br/><br/><br/>
+    <h1>Search Your Job</h1>
+    <input type="search" class="search" name="search" placeholder="Search Here">
+    <br/><br/>
+    <h1 class="serach">Make Your Resume</h1>
+    <br/> <br/><br/>
+    <form action="finding.html" method="POST">
+    <fieldset>
+        <legend>Info</legend>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" placeholder="First Name" id="fname" required><br/><br/>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" placeholder="Last Name" id="lname" required><br/><br/>
+        <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" name="email" placeholder="Email" id="email" required><br/><br/>
+        <label for="contact">Contact &nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" maxlength="11" name="contact" placeholder="Contact" id="contact" required><br/><br/>
+        <!-- <!-- <label for="we">Working Experience &nbsp;&nbsp;&nbsp;&nbsp;</label> -->
+        <textarea name="workingexp" id="we" cols="30" rows="5" placeholder="Working Experience"></textarea><br><br> 
+        <label for="qual">Qualification</label>
+        <Select id="qual" required>
+            <option>Intermeditae</option>
+            <option>Bachelor</option>
+            <option>Master</option>
+            <option>PhD</option> 
+
+        </Select><br><br>
+     
+        <input type="submit" value="Submit">
+</form>
+    
+    </fieldset><br><br>
+    <!-- <input type="submit" value="Submit"> -->
+</form>
+
+</body>
+</html>
